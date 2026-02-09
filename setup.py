@@ -4,14 +4,17 @@ from setuptools import setup
 
 # The actual setup function call:
 setup(
-    name="DMS_Core",
+    name="DMS-Core",
     version="0.1.dev0",
     description="Document Management System",
     package_dir={
         "": "src",
         # ...
     },
-    packages=setuptools.find_packages(),
+    packages=[
+        'dms_core',
+        # ...
+    ],
     package_data={
 #        "dms_core": [
 #            "filename.ext",
