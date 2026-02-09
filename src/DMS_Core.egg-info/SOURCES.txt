@@ -4,3 +4,4 @@ src/DMS_Core.egg-info/PKG-INFO
 src/DMS_Core.egg-info/SOURCES.txt
 src/DMS_Core.egg-info/dependency_links.txt
 src/DMS_Core.egg-info/top_level.txt
+src/dms_core/__init__.py
